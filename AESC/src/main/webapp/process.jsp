@@ -4,7 +4,8 @@
     String studentName = request.getParameter("studentName");
     String certificateData = request.getParameter("certificateData");
     String message = "";
-    byte[] keyValue = new byte[]{'T', 'h', 'e', 'B', 'e', 's', 't', 'S', 'e', 'c', 'r', 'e', 't', 'K', 'e', 'y'};
+    String str = "hjdsfihdb hdcidjbci  d ijdcdic";
+    byte[] keyValue = str.getBytes();
     String ALGORITHM = "AES";
     
     Connection conn = null;
